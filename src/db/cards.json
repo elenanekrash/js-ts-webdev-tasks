@@ -1,0 +1,31 @@
+[
+  {
+    "heading": "Startup Framework",
+    "description": "Startup Framework works fine on devices supporting Retina Desplay. Feel the clarity!",
+    "image": {
+      "name": "card-01.jpg",
+      "alt": "An image of three balloons"
+    },
+    "tags": [
+      {
+        "slug": "ui-kit",
+        "title": "UI KIT"
+      },
+
+      {
+        "slug": "framework",
+        "title": "Framework"
+      },
+
+      {
+        "slug": "landing-page",
+        "title": "Landing Page"
+      },
+
+      {
+        "slug": "generator",
+        "title": "Generator"
+      }
+    ]
+  }
+]

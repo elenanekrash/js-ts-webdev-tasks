@@ -11,6 +11,7 @@ Implement **only three sections** (`hero`, `gallery` and `footer`) for both RTL 
 - Use HTML5
 - Download assets from Figma, put inside `assets` folder and use in the project
   - if there is no any asset (like arabic fonts), replace with any font close to the missing one (https://fonts.google.com/) (there are filters for `Arabic` language fonts)
+- All CSS code for each component should be placed into and imported from a separate CSS file
 
 ### Hero section - 2 point
 

@@ -1,0 +1,108 @@
+.testh {
+    color: blueviolet;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./js-ts-webdev-tasks/assets/') format('truetype'); /* путь к файлу шрифта */
+    font-weight: normal; /* или bold, если у вас разные веса шрифта */
+    font-style: normal; /* или italic, если шрифт курсивный */
+  }
+
+body {
+    background-color: rgb(176, 176, 228);
+    padding: 50px;
+    font-family: 'DM Sans', sans-serif; /* Подключение шрифта на странице */
+}
+
+.grid {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.cardsContainer {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+    gap: 10px; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Две колонки одинаковой ширины */
+    grid-gap: 10px; /* Расстояние между карточками */
+}
+
+.card {
+    border: 1px solid blue;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card2 {
+    background-color: rgb(255, 255, 255); 
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.cardGrey {
+    background-color: #EBEAED;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cardWhite {
+    background-color: white;
+    border-color: #EBEAED;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cardBlue {
+    background-color: #482BE7;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cardPicture {
+    /*background-image: url("https://s3-alpha-sig.figma.com/img/11ed/ef21/5947a87760019ac83d936f3ef08727bd?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pvwJwIs~g0HfzS99xWxv-DY9LUalCcl7p0ez67Yj6DizC-IAKxF9~DDmz49LCaDxxU56YtJmOlrG4aSCgow1Uj1vpYKtVKzHr9oVdQZdacpHF6Uogkcd-nXD5p6LTf4SaMANdHhc~1SuSU7BlybpxRzXNErVLkg2NrOk7e0jnBMHGpIJLwwbv2TmxO8b1sPR0-QqbOoqa5tAFbY08Tagl20jRS1m3T5c5eJUxaFG3wt4inDl~IUuPwyDLvhf9p-Cfx4Rrxjzqp4H70vYN7pgQrab1xnbbsmZRWfr37sZ2hPykb9bA5ov6JFdw6HA6LYS-qdkPpsqtrreJnF~NCwHKg__");
+    */
+    background-image: url("./assets/backgroung.jpeg");
+    background-size: cover; 
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.buttonDefault {
+    border-radius: 20px;
+    width: 214px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+    color: #1E0E62;
+}
+
+.buttonGreen {
+    border-radius: 20px;
+    width: 214px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;   
+    background-color: rgb(0, 119, 79); 
+    color: white;
+}
+
+.cardTitleDefault {     color: #1E0E62; }
+.cardTitleWhite {     color: white; }
+
+.pColorDefault {     color: #141414; }
+.pColorWhite {     color: white; }
+.pColorGray {    color:#141414;}

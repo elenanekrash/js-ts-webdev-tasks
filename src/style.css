@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./js-ts-webdev-tasks/assets/') format('truetype'); /* путь к файлу шрифта */
+    font-weight: normal; /* или bold, если у вас разные веса шрифта */
+    font-style: normal; /* или italic, если шрифт курсивный */
+  }
+
+  body {
+    all: unset;
+    font-family: 'DM Sans', sans-serif; /* Подключение шрифта на странице */
+    /*background-color: rgb(255, 255, 255);*/
+    background-color: aquamarine;
+    justify-items: center;
+  }
+
+section {
+  width: 1170px;
+}
+
+  h1 {
+    text-align: center;
+    color: #141414;
+    font-size: 42px;
+  }
+
+
+  
+  .grid {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    border-color: #141414;
+    background-color: aliceblue;
+  }
+
+  .pagetext {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 22px;
+    text-align: center;
+    line-height: 32px;
+  }
+  
+  .title {
+    font-size: 22px;
+    color: #1E0E62;
+  }
+
+  .text {
+    font-size: 16px;
+    color: rgba(21, 20, 57, 0.4);
+  }
+
+  .card {
+    border-radius: 20px;
+    border-color: grey;
+    border-width: 1px;
+    background-color: white;
+    font-size: 22px;
+  }
+  
+  .card--red {
+    color: red;
+    font-size: 22px;
+  }
+
+  section {
+    
+  }
+
+.tags {
+  color: blue;
+  text-transform: uppercase;
+}
+
+.bg1 {
+  width: 570px;
+  height: 330px;
+  border-color: aquamarine;
+  border-radius: 10px;
+  border-width: 2px;
+  background-color: blueviolet;
+  background-image: url("./assets/images/card-01.jpg");
+  /*background-image: url("https://cdn.jsdelivr.net/gh/alohe/avatars/png/vibrent_2.png");*/
+  }

@@ -9,12 +9,20 @@
     all: unset;
     font-family: 'DM Sans', sans-serif; /* Подключение шрифта на странице */
     /*background-color: rgb(255, 255, 255);*/
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     justify-items: center;
   }
 
+  .hdiv
+  {
+    width: 756px;
+    /* background-color: white; */
+    margin: 0 auto;
+  }
+
 section {
-  width: 1170px;
+  /* width: 1170px; */
+  margin: 0 auto;
 }
 
   h1 {
@@ -32,8 +40,17 @@ section {
     padding: 20px;
     flex-wrap: wrap;
     border-color: #141414;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    
   }
+
+  img {
+    overflow: hidden;
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0 ;
+ }
 
   .pagetext {
     color: rgba(21, 20, 57, 0.4);
@@ -42,22 +59,30 @@ section {
     line-height: 32px;
   }
   
-  .title {
+  h6 {
     font-size: 22px;
     color: #1E0E62;
+    line-height: 32px;
+    margin: 20px 0;
+    margin: 20px 0 20px 20px;
   }
 
-  .text {
+  article {
     font-size: 16px;
     color: rgba(21, 20, 57, 0.4);
+    line-height: 26px;
+    margin: 20px 0 20px 20px;
   }
 
   .card {
+    width: 520px;
     border-radius: 20px;
-    border-color: grey;
-    border-width: 1px;
-    background-color: white;
+    border-color: rgb(8, 8, 8);
+    border-width: 2px;
+    background-color: rgb(255, 255, 255);
     font-size: 22px;
+    object-fit: cover; 
+    margin: 20px;
   }
   
   .card--red {
@@ -66,21 +91,13 @@ section {
   }
 
   section {
-    
+    border-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border-width: 2px;  
   }
 
 .tags {
   color: blue;
   text-transform: uppercase;
+  margin: 20px 0 20px 20px;
 }
-
-.bg1 {
-  width: 570px;
-  height: 330px;
-  border-color: aquamarine;
-  border-radius: 10px;
-  border-width: 2px;
-  background-color: blueviolet;
-  background-image: url("./assets/images/card-01.jpg");
-  /*background-image: url("https://cdn.jsdelivr.net/gh/alohe/avatars/png/vibrent_2.png");*/
-  }

@@ -2,30 +2,45 @@
   {
     "heading": "Startup Framework",
     "description": "Startup Framework works fine on devices supporting Retina Desplay. Feel the clarity!",
-    "image": {
-      "name": "card-01.jpg",
-      "alt": "An image of three balloons"
-    },
+    "image": { "name": "card-01.jpg", "alt": "An image of three balloons" },
     "tags": [
-      {
-        "slug": "ui-kit",
-        "title": "UI KIT"
-      },
-
-      {
-        "slug": "framework",
-        "title": "Framework"
-      },
-
-      {
-        "slug": "landing-page",
-        "title": "Landing Page"
-      },
-
-      {
-        "slug": "generator",
-        "title": "Generator"
-      }
+      { "slug": "ui-kit", "title": "UI KIT"},
+      { "slug": "framework", "title": "Framework"},
+      { "slug": "landing-page", "title": "Landing Page"},
+      { "slug": "generator", "title": "Generator"}
+    ]
+  },
+  {
+    "heading": "Slides",
+    "description": "We have created a new product that will help designers create websites for their startups.",
+    "image": { "name": "card-02.jpg","alt": "An image of three balloons" },
+    "tags": [
+      { "slug": "ui-kit", "title": "UI KIT"},
+      { "slug": "framework", "title": "Framework"},
+      { "slug": "landing-page", "title": "Landing Page"},
+      { "slug": "generator", "title": "Generator"}
+    ]
+  },
+  {
+    "heading": "Flat UI Pro",
+    "description": "Components and blocks are fixed to the common and popular 12 Grid system.",
+    "image": { "name": "card-03.jpg","alt": "An image of three balloons" },
+    "tags": [
+      { "slug": "ui-kit", "title": "UI KIT"},
+      { "slug": "framework", "title": "Framework"},
+      { "slug": "landing-page", "title": "Landing Page"},
+      { "slug": "generator", "title": "Generator"}
+    ]
+  },
+  {
+    "heading": "Slides",
+    "description": "We have created a new product that will help designers create websites for their startups.",
+    "image": { "name": "card-04.jpg","alt": "An image of three balloons" },
+    "tags": [
+      { "slug": "ui-kit", "title": "UI KIT"},
+      { "slug": "framework", "title": "Framework"},
+      { "slug": "landing-page", "title": "Landing Page"},
+      { "slug": "generator", "title": "Generator"}
     ]
   }
 ]

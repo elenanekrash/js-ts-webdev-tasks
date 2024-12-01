@@ -1,0 +1,29 @@
+{
+    "en": {
+        "textDirection": "ltr",
+        "logo": "Party Time!",
+        "nav01": "Home",
+        "nav02": "Gallery",
+        "nav03": "About Party",
+        "nav04": "Reservation",
+        "nav05": "Contacts",
+        "reservationButton": "Reservation",
+        "partyTime": "31 October 2023",
+        "partyTitle": "It's Halloween Party O'Clock!",
+        "memoriesTitle": "Halloween Memories"
+    },
+    "ar": {
+        "textDirection": "rtl",
+        "logo": "پارتی تایم",
+        "nav01": "خانه",
+        "nav02": "گالری",
+        "nav03": "درباره پارتی",
+        "nav04": "رزرو میز",
+        "nav05": "تماس با ما",
+        "reservationButton": "رزرو میز",
+        "partyTime": "31 اکتبر 2023",
+        "partyTitle": "اینجا هالوین پارتی به راهه!",
+        "memoriesTitle": "هالوین پارتی های قبلیمون"
+    }
+
+}

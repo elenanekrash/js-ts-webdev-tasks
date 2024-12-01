@@ -1,0 +1,127 @@
+:root {
+    --border-color: blue;
+    --footer-background: url("./src/components/images/footerEN.png");
+    --flex-direction: row;
+}
+
+body {
+    background-color: black;
+    color: white;
+
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.centerSection {
+    width: 1400px;
+    width: 100%; 
+    padding: 0 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: var(--flex-direction); /**/
+
+}
+
+.logoText {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 48px;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+    size: 16px;
+    flex-direction: row; /**/
+    border-color: var(--border-color);
+    border-style: solid;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    flex-direction: var(--flex-direction); /**/
+}
+
+li {
+    list-style: none;
+}
+
+.orangeH1 {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 58px;
+    line-height: 82px;
+    font-weight: 400;
+    color: rgba(254, 119, 45, 1);
+    text-transform: uppercase;
+}
+
+.div-localization {
+    display: flex;
+    gap: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgba(254, 119, 45, 1);
+    color: black;
+    border-radius: 16px;
+    size: 16px;
+    width: 141px;
+    height: 54px;
+    padding: 16px 24px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.heroSection {
+    background-image: url("./src/components/images/heroSectionBackground.png");
+    /* background-color: aqua; */
+    height: 793px;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-radius: 16px;
+    width: 244px;
+    height: 244px;
+    margin: 10px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+
+}
+
+.horizontalDiv {
+    display: flex;
+    flex-direction: var(--flex-direction); /**/
+    align-items: center;   
+}
+
+.uppercaseText {
+    text-transform: uppercase;
+}
+
+.gallerySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-image: var(--footer-background);
+    height: 788px;
+    /* width: 1400px; */
+    background-size: cover;
+    background-position: center; 
+}

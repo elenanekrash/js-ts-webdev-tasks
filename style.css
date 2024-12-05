@@ -1,5 +1,5 @@
 :root {
-    --border-color: blue;
+    /* --border-color: blue; */
     --footer-background: url("./src/components/images/footerEN.png");
     --flex-direction: row;
 }
@@ -21,7 +21,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: var(--flex-direction); /**/
 
@@ -37,8 +37,8 @@ nav {
     gap: 24px;
     size: 16px;
     flex-direction: row; /**/
-    border-color: var(--border-color);
-    border-style: solid;
+    /* border-color: var(--border-color); */
+    /* border-style: solid; */
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     flex-direction: var(--flex-direction); /**/
@@ -121,7 +121,8 @@ img {
 footer {
     background-image: var(--footer-background);
     height: 788px;
-    /* width: 1400px; */
+    width: 1400px;
+    width: 100%; 
     background-size: cover;
     background-position: center; 
 }

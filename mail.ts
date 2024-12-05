@@ -9,10 +9,6 @@ function changeLocale() {
     currentLocal = currentLocal === "en"? "ar" : "en";
 }
 
-const myPage = document.createElement("section");
-myPage.innerHTML=innerHTML;
-document.body.append(myPage);
-
 
 function updateTextContent(){
     const elementsList = document.querySelectorAll("[data-i18n]");
@@ -25,25 +21,12 @@ function updateTextContent(){
 }
 
 function changeTextDirection(){
-    
-
     if (currentLocal==="en") {
         document.documentElement.style.setProperty("--flex-direction", "row");
     } else {
         document.documentElement.style.setProperty("--flex-direction", "row-reverse");
     }   
 
-
-
-    // const navigation = document.querySelectorAll("nav")[0];
-    // const header = document.querySelectorAll("header")[0];
-    // if (currentLocal==="en") {
-    //     header.setAttribute("class", "headerEN");
-    //     navigation.setAttribute("class", "navEN");
-    // } else {
-    //     header.setAttribute("class", "headerAR");
-    //     navigation.setAttribute("class", "navAR");
-    // }
 }
 
 function footerUpdate() {
@@ -61,25 +44,12 @@ function localUpdate(selectedLanguage) {
     updateTextContent();
     changeTextDirection();
     footerUpdate();
-    // console.log(currentLocal);
-    
-    //document.documentElement.style.setProperty('--footer-background', 'url("./src/components/images/footerAR.png")');
-    // if (currentLocal==="en") {
-    //     logoElement.textContent = locales.en.logo;
-    //     homeLink.textContent = locales.en.nav01;
-    // } else {
-    //     logoElement.textContent = locales.ru.logo;
-    //     homeLink.textContent = locales.ru.nav01;
-    // }
-       
-    // console.log(currentLocal);
-  }
 
+}
 
-// const logoElement = document.querySelectorAll("[data-i18n]")[0];
-// const homeLink = document.querySelectorAll("[data-i18n]")[1];
-// console.log(changeLocalToEN);
-// console.log(currentLocal);
+const myPage = document.createElement("section");
+myPage.innerHTML=innerHTML;
+document.body.append(myPage);
 
 const changeLocalToEN = document.getElementById("c2a-EN") as HTMLElement;
 changeLocalToEN.addEventListener("click", () => localUpdate("en"));
@@ -89,6 +59,11 @@ changeLocalToAR.addEventListener("click", () => localUpdate("ar"));
 localUpdate("en");
 
 function initApp() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve(locales[currentLocal]); 
+        }, 1000); 
+      });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
